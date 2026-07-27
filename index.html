@@ -11,188 +11,115 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Go to top">KSK</a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#cv">CV</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <main class="page-shell">
+      <aside class="profile-sidebar" aria-label="Profile">
+        <div class="profile-photo" aria-label="Profile photo placeholder">
+          <span>KSK</span>
+        </div>
+        <h1>KYU SIK KIM</h1>
+        <p class="role">Ph.D. Student</p>
+        <p class="affiliation">Department of Chemical and Biological Engineering<br />Korea University</p>
 
-    <main id="top">
-      <section class="hero section">
-        <div class="hero-copy">
-          <p class="eyebrow">Ph.D. Student - Korea University</p>
-          <h1>KYU SIK KIM</h1>
-          <p class="subtitle">
+        <div class="contact-links">
+          <a href="mailto:sikkyuu@korea.ac.kr">sikkyuu@korea.ac.kr</a>
+          <a href="mailto:sikkyuu@kist.re.kr">sikkyuu@kist.re.kr</a>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Section navigation">
+          <a href="#about">About Me</a>
+          <a href="#publications">Publications</a>
+          <a href="#research">Research Interests</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#awards">Awards</a>
+        </nav>
+      </aside>
+
+      <section class="content-column">
+        <section class="content-section" id="about">
+          <h2>About Me</h2>
+          <p>
             I am a Ph.D. student in the Department of Chemical and Biological
             Engineering at Korea University. My research interests include
             ultrasensitive detection, quantum biosensing, and signal amplification.
           </p>
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="#research">Research Interests</a>
-            <a class="button secondary" href="#contact">Contact</a>
-          </div>
-        </div>
-
-        <aside class="profile-panel" aria-label="Profile summary">
-          <div class="profile-photo" aria-label="Profile photo placeholder">
-            <span>KSK</span>
-          </div>
-          <div class="profile-meta">
-            <p class="profile-name">KYU SIK KIM</p>
-            <p>Ph.D. Student</p>
-            <p>Department of Chemical and Biological Engineering</p>
-            <p>Korea University</p>
-          </div>
-          <div class="profile-tags">
-            <span>Ultrasensitive Detection</span>
-            <span>Quantum Biosensing</span>
-            <span>Signal Amplification</span>
-          </div>
-        </aside>
-      </section>
-
-      <section class="section split" id="about">
-        <div>
-          <p class="section-kicker">About</p>
-          <h2>Developing sensitive analytical systems for biosensing applications.</h2>
-        </div>
-        <div class="body-copy">
           <p>
-            I am interested in analytical chemistry and bioengineering approaches that
-            improve the sensitivity, readability, and practical utility of biosensing
-            platforms.
+            My academic background spans chemistry, chemistry education, and chemical
+            and biological engineering. I am interested in analytical systems that
+            translate subtle biochemical or electrochemical signals into clear,
+            practical readouts for biosensing applications.
           </p>
-          <p>
-            My current academic path connects chemistry, chemistry education, and
-            chemical and biological engineering, with a focus on detection strategies
-            that can translate small physicochemical signals into clear analytical
-            readouts.
-          </p>
-        </div>
-      </section>
+        </section>
 
-      <section class="section" id="research">
-        <div class="section-heading">
-          <p class="section-kicker">Research</p>
+        <section class="content-section" id="publications">
+          <h2>Publications</h2>
+
+          <article class="entry">
+            <h3>A Laser-Induced Graphene-Based Bipolar Electrode Sensor for Colorimetric Detection of Glucose</h3>
+            <p class="meta">KYU SIK KIM</p>
+            <p class="description">Research article</p>
+          </article>
+
+          <article class="entry">
+            <h3>Bipolar Electrode-Based Electrochromic Glucose Sensor with a Digitized Colorimetric Readout</h3>
+            <p class="meta">KYU SIK KIM</p>
+            <p class="description">Poster presentation, Spring Meeting of the BioChip Society, 2026</p>
+          </article>
+        </section>
+
+        <section class="content-section" id="research">
           <h2>Research Interests</h2>
-        </div>
-        <div class="card-grid">
-          <article class="card">
-            <span class="card-number">01</span>
-            <h3>Ultrasensitive Detection</h3>
-            <p>
-              Designing sensing strategies that can detect low-abundance targets with
-              high sensitivity and reliable readout quality.
+          <ul class="plain-list">
+            <li><strong>Ultrasensitive detection</strong> - sensing strategies for low-abundance targets with reliable analytical readouts.</li>
+            <li><strong>Quantum biosensing</strong> - biosensing concepts that use quantum-related phenomena or quantum-enabled measurement approaches.</li>
+            <li><strong>Signal amplification</strong> - methods that convert weak biochemical or electrochemical signals into readable outputs.</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="experience">
+          <h2>Experience</h2>
+          <article class="entry">
+            <h3>Korea Institute of Science and Technology (KIST)</h3>
+            <p class="meta">Research Intern</p>
+            <p class="description">March 2025 - February 2026</p>
+          </article>
+        </section>
+
+        <section class="content-section" id="education">
+          <h2>Education</h2>
+          <article class="entry">
+            <h3>Korea University</h3>
+            <p class="meta">Ph.D. Student, Department of Chemical and Biological Engineering</p>
+            <p class="description">Present</p>
+          </article>
+          <article class="entry">
+            <h3>Korea National University of Education</h3>
+            <p class="meta">M.S. in Chemistry Education</p>
+            <p class="description">2024</p>
+          </article>
+          <article class="entry">
+            <h3>Jeonbuk National University</h3>
+            <p class="meta">B.S. in Chemistry</p>
+            <p class="description">2022</p>
+          </article>
+        </section>
+
+        <section class="content-section" id="awards">
+          <h2>Awards</h2>
+          <article class="entry">
+            <h3>Best Poster Presentation Award</h3>
+            <p class="meta">Spring Meeting of the BioChip Society, 2026</p>
+            <p class="description">
+              Awarded for "Bipolar Electrode-Based Electrochromic Glucose Sensor with a
+              Digitized Colorimetric Readout."
             </p>
           </article>
-          <article class="card">
-            <span class="card-number">02</span>
-            <h3>Quantum Biosensing</h3>
-            <p>
-              Exploring biosensing systems that use quantum-related phenomena or
-              quantum-enabled measurement concepts for improved analytical performance.
-            </p>
-          </article>
-          <article class="card">
-            <span class="card-number">03</span>
-            <h3>Signal Amplification</h3>
-            <p>
-              Developing amplification methods that convert weak biochemical or
-              electrochemical signals into interpretable outputs.
-            </p>
-          </article>
-        </div>
-      </section>
+        </section>
 
-      <section class="section" id="publications">
-        <div class="section-heading">
-          <p class="section-kicker">Publications</p>
-          <h2>Selected Work</h2>
-        </div>
-        <div class="publication-list">
-          <article class="publication">
-            <div class="pub-year">2026</div>
-            <div>
-              <h3>
-                Bipolar Electrode-Based Electrochromic Glucose Sensor with a Digitized
-                Colorimetric Readout
-              </h3>
-              <p>KYU SIK KIM</p>
-              <p class="venue">Poster presentation</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="awards">
-        <div class="section-heading">
-          <p class="section-kicker">Awards</p>
-          <h2>Honors & Awards</h2>
-        </div>
-        <div class="publication-list">
-          <article class="publication">
-            <div class="pub-year">2026</div>
-            <div>
-              <h3>Best Poster Presentation Award</h3>
-              <p>Spring Meeting of the BioChip Society</p>
-              <p class="venue">
-                For "Bipolar Electrode-Based Electrochromic Glucose Sensor with a
-                Digitized Colorimetric Readout"
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section timeline-section" id="cv">
-        <div class="section-heading">
-          <p class="section-kicker">CV</p>
-          <h2>Education & Experience</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span>Present</span>
-            <strong>Ph.D. Student</strong>
-            <p>Department of Chemical and Biological Engineering, Korea University</p>
-          </div>
-          <div class="timeline-item">
-            <span>2025.03 - 2026.02</span>
-            <strong>Research Intern</strong>
-            <p>Korea Institute of Science and Technology (KIST)</p>
-          </div>
-          <div class="timeline-item">
-            <span>2024</span>
-            <strong>M.S. in Chemistry Education</strong>
-            <p>Korea National University of Education</p>
-          </div>
-          <div class="timeline-item">
-            <span>2022</span>
-            <strong>B.S. in Chemistry</strong>
-            <p>Jeonbuk National University</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2>Contact</h2>
-        </div>
-        <div class="contact-card">
-          <a href="mailto:sikkyuu@korea.ac.kr">sikkyuu@korea.ac.kr</a>
-          <a href="mailto:sikkyuu@kist.re.kr">sikkyuu@kist.re.kr</a>
-        </div>
+        <footer class="site-footer">
+          <p>KYU SIK KIM - sikkyuu@korea.ac.kr - Built for GitHub Pages</p>
+        </footer>
       </section>
     </main>
-
-    <footer class="footer">
-      <span>© 2026 KYU SIK KIM</span>
-      <span>Built for GitHub Pages</span>
-    </footer>
   </body>
 </html>
