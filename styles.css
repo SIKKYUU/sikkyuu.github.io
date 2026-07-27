@@ -243,3 +243,9 @@ h1 {
     font-size: 28px;
   }
 }
+
+img.profile-photo {
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
