@@ -249,3 +249,15 @@ img.profile-photo {
   object-fit: cover;
   object-position: center top;
 }
+
+.doi-link {
+  display: inline-block;
+  margin-left: 4px;
+  color: var(--link);
+  font-size: 0.82em;
+  vertical-align: 0.06em;
+}
+
+.doi-link:hover {
+  text-decoration: none;
+}
