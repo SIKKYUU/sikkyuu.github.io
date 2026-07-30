@@ -37,7 +37,7 @@ a:hover {
 .site-topbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: min(1080px, calc(100% - 44px));
   margin: 0 auto;
   padding: 28px 0 8px;
